@@ -2,8 +2,8 @@ module "logstash" {
   source = "git::https://github.com/AlienX456/SoundMonitor-IAC-Infrastructure-Common.git//use-cases/ecs_logstash_elastic_services?ref=3.0.12-rc"
 
   /*USER VARS*/
-  cpu= "256"
-  memory= "512"
+  cpu= "512"
+  memory= "1024"
   number_of_tasks="1"
   device_selector= "cpu"
 
